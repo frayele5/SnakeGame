@@ -1,4 +1,4 @@
-from turtle import  Screen
+from turtle import Screen
 import time
 import snake
 import food
@@ -12,9 +12,12 @@ screen.title("Snake Game")
 screen.tracer(0)
 screen.listen()
 
-#Creating a snake
+# Creating a snake
 snake = snake.Snake()
+
+# Creating Food
 food = food.Food()
+
 score_board = score_board.Scoreboard()
 
 screen.onkeypress(snake.up, "Up")

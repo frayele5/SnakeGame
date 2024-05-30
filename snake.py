@@ -1,6 +1,5 @@
 from turtle import Turtle
 
-# Define your snake game logic here
 MOVE_DISTANT = 20
 UP = 90
 DOWN = 270
